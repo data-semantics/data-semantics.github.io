@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:og="http://ogp.me/ns#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ns1="dbo:"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:gso="http://www.w3.org/2006/gen/ont#"
+    >
+    <foaf:Document rdf:about="http://data-semantics.github.io/assignment/5/">
+        <dcterms:creator>Tim Thompson</dcterms:creator>
+        <dcterms:alternative>A (brief) Web page about the French philosopher Jacques Derrida</dcterms:alternative>
+        <dcterms:title>Data Semantics S2016: Assignment 5</dcterms:title>
+        <foaf:primaryTopic>
+            <rdf:Description rdf:about="http://viaf.org/viaf/88958529">
+                <ns1:abstract xml:lang="en">Jacques Derrida (/ʒɑːk ˈdɛrɨdə/; French: [ʒak dɛʁida]; born Jackie Élie Derrida; July 15, 1930 – October 9, 2004) was a French philosopher, born in Algeria. Derrida is best known for developing a form of semiotic analysis known as deconstruction, which he discussed in numerous texts. He is one of the major figures associated with post-structuralism and postmodern philosophy.During his career Derrida published more than 40 books, together with hundreds of essays and public presentations. He had a significant influence upon the humanities and social sciences, including—in addition to philosophy and literature—law, anthropology, historiography, linguistics, sociolinguistics, psychoanalysis, political theory, feminism, and gay and lesbian studies. His work still has a major influence in the academe of Continental Europe, South America and all other countries where continental philosophy is predominant, particularly in debates around ontology, epistemology (especially concerning social sciences), ethics, aesthetics, hermeneutics, and the philosophy of language. He also influenced architecture (in the form of deconstructivism), music, art, and art criticism.Particularly in his later writings, Derrida frequently addressed ethical and political themes in his work. These writings influenced various activists and political movements. He became a well-known and influential public figure, while his approach to philosophy and the notorious difficulty of his work made him controversial.</ns1:abstract>
+                <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q130631"/>
+                <owl:sameAs rdf:resource="http://dbpedia.org/resource/Jacques_Derrida"/>
+                <foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/9/99/Derrida-by-Pablo-Secca.jpg"/>
+                <foaf:name>Jacques Derrida</foaf:name>
+            </rdf:Description>
+        </foaf:primaryTopic>
+        <og:title>Data Semantics S2016: Assignment 5</og:title>
+        <foaf:maker rdf:resource="http://data-semantics.github.io/id/tim"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+    </foaf:Document>
+    <foaf:Image rdf:about="https://upload.wikimedia.org/wikipedia/commons/9/99/Derrida-by-Pablo-Secca.jpg">
+        <rdfs:seeAlso rdf:resource="https://commons.wikimedia.org/wiki/File%3ADerrida-by-Pablo-Secca.jpg"/>
+    </foaf:Image>
+</rdf:RDF>
