@@ -1,0 +1,86 @@
+<?xml-stylesheet href="/xsltforms/xsl/xsltforms.xsl" type="text/xsl"?>
+<?xsltforms-options domengine="name=Fleur;url=/xsltforms/js/fleur.js;uri=http://www.agencexml.com/Fleur;version=1.0"?>
+<?xsltforms-options debug="no"?>
+<?css-conversion no?>
+<?xml-model href="http://www.oxygenxml.com/1999/xhtml/xhtml-xforms.nvdl" 
+    schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?>
+<html xmlns="http://www.w3.org/1999/xhtml" 
+    xmlns:bf="http://loc.gov/bibframe/vocab#"
+    xmlns:cwb="http://bibfram.es/cwb/"
+    xmlns:ds="http://data-semantics.github.io/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:marc="http://www.loc.gov/MARC21/slim"
+    xmlns:oa="http://www.w3.org/ns/oa#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xf="http://www.w3.org/2002/xforms"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" prefix="dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/">
+    <head prefix="og: http://ogp.me/ns#" typeof="http://xmlns.com/foaf/0.1/Document http://www.w3.org/2006/gen/ont#InformationResource">   
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        
+    <meta property="dc:title" content="Data Semantics S2016: Assignment 5"/>
+    <meta property="og:title" content="Data Semantics S2016: Assignment 5"/>    
+    <meta property="dc:alternative" content="A Web page about the French philosopher Jacques Derrida" />
+    <meta property="dc:creator" content="Tim Thompson"/>
+    <meta property="dc:creator" content="#tim"/>
+    <meta property="foaf:primaryTopic" content="http://viaf.org/viaf/88958529"/>
+    
+        
+        <title>Data Semantics S2016: Assignment 5</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+        <!-- Optional theme -->
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"/>
+        <style type="text/css">
+            <![CDATA[
+            #wrapper{
+                width: 80%;
+                height: auto;
+                min-height: 1000px;
+                margin-top: 1%;
+                margin-right: auto;
+                margin-left: auto;
+                margin-bottom: 2%;
+                background-color: #C0C0C0;
+            }
+            .xforms-label{
+                width: 15%;
+                float: left;
+            }
+            .checkbox{
+                list-style-type: none;
+            }
+            #group-people{
+                width: 50%;
+                float: left;
+            }
+            #group-tasks{
+                width: 50%;
+                float: left;
+            }]]>
+        </style>
+        <xf:model id="default-model">
+            <xf:instance src="data/data.xml"/>
+            
+        </xf:model>
+    </head>
+    <body prefix="bf: http://loc.gov/bibframe/vocab# cbo: http://comicmeta.org/cbo/ cc: http://creativecommons.org/ns# dcterms: http://purl.org/dc/terms/ oa: http://www.w3.org/ns/oa# rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# schema: http://schema.org/ skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+        <div id="wrapper" class="container">
+            <h1>Data Semantics S2016: Assignment 5 (Linked Open Data)</h1>
+            <xf:group ref="/data">
+               
+            </xf:group>
+        </div>
+        <!-- Latest compiled and minified JavaScript -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </body>
+</html>
