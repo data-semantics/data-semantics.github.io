@@ -68,7 +68,7 @@
             }]]>
         </style>
         <xf:model id="default-model">
-            <xf:instance src="data/data.xml"/>
+            <xf:instance/>
             
         </xf:model>
     </head>
