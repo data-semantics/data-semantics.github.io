@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" prefix="dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/" typeof="http://xmlns.com/foaf/0.1/Document">
-    <head>
-        <meta property="dc:title" content="Tim Thompson's vCard page"/>
+    <head>        
         <meta property="og:title" content="Tim Thompson's vCard page"/>                            
         <meta property="dc:creator" content="http://data-semantics.github.io/id/tim"/>        
         <meta property="foaf:primaryTopic" content="http://data-semantics.github.io/id/tim"/>
@@ -14,22 +13,22 @@
             href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"/>
     </head>
     <body>
-        <div id="wrapper" class="container">
-            
+        <div id="wrapper" class="container"> 
+            <h1 property="dc:title">Tim Thompson's vCard page</h1>
             <div vocab="http://www.w3.org/2006/vcard/ns#"
                 about="/id/tim" typeof="Individual">
-                <span property="fn">Tim Thompson</span>
-                <span property="nickname">Tim</span>
-                <span property="hasTelephone" typeof="Cell">
-                    <span property="hasValue" href="tel:+2014239972"/>
-                </span>
+                <h1 property="fn">Tim Thompson</h1>
+                <p property="nickname">Tim</p>
+                <p property="hasTelephone" typeof="Cell">
+                    <a property="hasValue" href="tel:+2014239972"/>
+                </p>
                 <link property="hasEmail" href="mailto:timathom@indiana.edu"/>
-                <span property="hasAddress" typeof="Home">
-                    <span property="street-address">616 Lakeview Ter</span>
-                    <span property="locality">Princeton</span>
-                    <span property="postal-code">08540</span>
-                    <span property="country-name">USA</span>
-                </span>
+                <div property="hasAddress" typeof="Home">
+                    <p property="street-address">616 Lakeview Ter</p>
+                    <p property="locality">Princeton</p>
+                    <p property="postal-code">08540</p>
+                    <p property="country-name">USA</p>
+                </div>
             </div>
         </div>
         <!-- Latest compiled and minified JavaScript -->
