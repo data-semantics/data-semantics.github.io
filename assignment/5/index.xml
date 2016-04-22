@@ -67,9 +67,7 @@
                 float: left;
             }]]>
         </style>
-        <xf:model id="default-model">
-            <xf:instance/>
-            
+        <xf:model id="default-model">                      
         </xf:model>
     </head>
     <body prefix="bf: http://loc.gov/bibframe/vocab# cbo: http://comicmeta.org/cbo/ cc: http://creativecommons.org/ns# dcterms: http://purl.org/dc/terms/ oa: http://www.w3.org/ns/oa# rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# schema: http://schema.org/ skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
