@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:og="http://ogp.me/ns#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfa="http://www.w3.org/ns/rdfa#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    >
+    <foaf:Document rdf:about="http://data-semantics.github.io/id/tim/">
+        <dc:creator>Tim Thompson</dc:creator>
+        <og:title>Tim Thompson's vCard page</og:title>
+        <dc:title>Tim Thompson's vCard page</dc:title>
+        <rdfa:usesVocabulary rdf:resource="http://www.w3.org/2006/vcard/ns#"/>
+        <foaf:primaryTopic>
+            <vcard:Individual rdf:about="http://data-semantics.github.io/id/tim">
+                <vcard:hasTelephone>
+                    <vcard:Cell rdf:nodeID="N58fa5288b64d4d5196c1dd807fc4cfa9">
+                        <vcard:hasEmail rdf:resource="mailto:timathom@indiana.edu"/>
+                        <vcard:hasValue>tel:+2014239972</vcard:hasValue>
+                    </vcard:Cell>
+                </vcard:hasTelephone>
+                <vcard:nickname>Tim</vcard:nickname>
+                <vcard:fn>Timothy Thompson</vcard:fn>
+                <vcard:hasAddress>
+                    <vcard:Home rdf:nodeID="N39c2c62c807c45b5b805bfca8d935032">
+                        <vcard:street-address>616 Lakeview Ter</vcard:street-address>
+                        <vcard:locality>Princeton</vcard:locality>
+                        <vcard:country-name>USA</vcard:country-name>
+                        <vcard:postal-code>08540</vcard:postal-code>
+                    </vcard:Home>
+                </vcard:hasAddress>
+            </vcard:Individual>
+        </foaf:primaryTopic>
+        <foaf:maker rdf:resource="http://data-semantics.github.io/id/tim"/>
+        <rdfs:seeAlso rdf:resource="http://timathompson.name"/>
+    </foaf:Document>
+</rdf:RDF>
+
