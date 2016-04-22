@@ -14,21 +14,87 @@
     </head>
     <body>
         <div id="wrapper" class="container"> 
-            <h1 property="dc:title">Tim Thompson's vCard page</h1>
+            <h1 property="dc:title">Tim Thompson's vCard page</h1>            
             <div vocab="http://www.w3.org/2006/vcard/ns#"
                 about="/id/tim" typeof="Individual">
-                <h1 property="fn">Tim Thompson</h1>
-                <p property="nickname">Tim</p>
-                <p property="hasTelephone" typeof="Cell">
-                    <a property="hasValue" href="tel:+2014239972"/>
-                </p>
+                <dl>
+                    <dt>
+                        <label>
+                            <span>
+                                Full name
+                            </span>
+                        </label>
+                    </dt>
+                    <dd>
+                        <span property="fn">Timothy Thompson</span>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <label>
+                            <span>
+                                Nickname
+                            </span>
+                        </label>
+                    </dt>
+                    <dd>
+                        <span property="nickname">Tim</span>
+                    </dd>
+                </dl>
+                <div rel="hasAddress" typeof="Home">
+                    <dl>                    
+                        <dt>
+                            <label>
+                                <span>
+                                    Street
+                                </span>
+                            </label>
+                        </dt>
+                        <dd property="street-address">
+                            616 Lakeview Ter                        
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <label>
+                                <span>
+                                    City
+                                </span>
+                            </label>
+                        </dt>
+                        <dd property="locality">
+                            Princeton                        
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <label>
+                                <span>
+                                    Postal code
+                                </span>
+                            </label>
+                        </dt>
+                        <dd property="postal-code">
+                            08540            
+                        </dd>        
+                    </dl>
+                    <dl>
+                        <dt>
+                            <label>
+                                <span>
+                                    Country
+                                </span>
+                            </label>
+                        </dt>
+                        <dd property="country-name">
+                            USA
+                        </dd>                    
+                    </dl>    
+                </div>                
+                <span property="hasTelephone" typeof="Cell">
+                    <span property="hasValue" content="tel:+2014239972"/>
+                </span>
                 <link property="hasEmail" href="mailto:timathom@indiana.edu"/>
-                <div property="hasAddress" typeof="Home">
-                    <p property="street-address">616 Lakeview Ter</p>
-                    <p property="locality">Princeton</p>
-                    <p property="postal-code">08540</p>
-                    <p property="country-name">USA</p>
-                </div>
             </div>
         </div>
         <!-- Latest compiled and minified JavaScript -->
